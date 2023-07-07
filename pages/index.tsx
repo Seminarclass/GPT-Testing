@@ -24,6 +24,7 @@ const Home: NextPage = () => {
 
   console.log("Streamed response: ", { generatedDescs });
   const promptObj = {
+    "தமிழ்": "Tamil"
     "English": "UK English",
     "中文": "Simplified Chinese",
     "繁體中文": "Traditional Chinese",
